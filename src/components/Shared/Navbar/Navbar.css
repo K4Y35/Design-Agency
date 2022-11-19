@@ -1,0 +1,15 @@
+.logo {
+  height: 40px;
+}
+
+.navbar {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.nav-link {
+  color: #474747;
+  margin-right: 25px;
+}
+.active {
+  border-bottom: 5px solid #7ab259;
+}
