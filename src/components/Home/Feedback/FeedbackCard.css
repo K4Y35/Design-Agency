@@ -1,0 +1,34 @@
+.card-container {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #bfbfbf;
+}
+.customer-img {
+  height: 60px;
+  margin-right: 10px;
+}
+
+.name-work {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-work h5 {
+  text-align: center;
+  height: 25px;
+  font-weight: bold;
+}
+
+.name-work p {
+  font-weight: bold;
+}
+
+.card-header-div {
+  display: flex;
+}
