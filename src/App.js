@@ -1,4 +1,5 @@
 import "./App.css";
+import Feedback from "./components/Home/Feedback/Feedback";
 import Header from "./components/Home/Header/Header";
 import Services from "./components/Home/Services/Services";
 import Sponsor from "./components/Home/Sponsor/Sponsor";
@@ -11,6 +12,7 @@ function App() {
       <Sponsor />
       <Services />
       <WorkCarousel />
+      <Feedback />
     </>
   );
 }
