@@ -6,8 +6,8 @@
   background-color: #111430;
 }
 .product-container {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
   padding-bottom: 50px;
   display: flex;
   overflow-x: hidden;

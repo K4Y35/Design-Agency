@@ -13,7 +13,7 @@ const Feedback = () => {
   const des =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas. Feugiat ";
   return (
-    <div className="feedback-div">
+    <div className="container feedback-div">
       <h3>
         Clients <span className="carousel-title-span">Feedback</span>
       </h3>

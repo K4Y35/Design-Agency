@@ -7,7 +7,7 @@ const Header = () => {
     <section className="header">
       <Navbar />
 
-      <div className="container">
+      <div className="container header-container">
         <div className="row">
           <div className="col-md-6 hero-text-div">
             <h1 className="header-title mt-4">
