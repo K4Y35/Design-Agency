@@ -1,7 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import logo from "../../../assets/logos/logo.png";
 import "./Navbar.css";
 const Navbar = () => {
+  const navigate = useNavigate();
+  const handleNavigateToLogin = () => {
+    navigate("/login");
+  };
   return (
     <nav class="navbar navbar-expand-lg mt-3 mb-1">
       <div class="container-fluid">
@@ -36,7 +41,12 @@ const Navbar = () => {
             <a class="nav-link" href="/">
               Contact Us
             </a>
-            <button class="nav-link sign-in btn-brand">Login</button>
+            <button
+              onClick={handleNavigateToLogin}
+              class="nav-link sign-in btn-brand"
+            >
+              Login
+            </button>
           </div>
         </div>
       </div>

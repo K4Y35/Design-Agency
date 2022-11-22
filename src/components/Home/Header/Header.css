@@ -41,3 +41,8 @@
   border-radius: 10px;
   border: none;
 }
+
+.btn-brand:hover {
+  color: white;
+  font-weight: bolder;
+}
